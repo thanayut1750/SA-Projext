@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+input {
+    padding: 1rem 3rem;
+}
+
+h1 {
+    margin: 1rem;
+}
+
+.success {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #3c763d;
+    color: #3c763d;
+    background: #dff0d8;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+body {
+	line-height: 1;
+    background-color: #7ddae2;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* reset css ^^^^^^ */
+
+/* Nav bar style */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+.menu-item {
+    display: flex;
+    margin-top: -30px;
+}
+.menu-item a{
+    height: 20px;
+    text-decoration: none;
+    color: black;
+    padding-top: 50px;
+
+}
+
+.member-image-wrap img{
+    width: 50px;
+    height: 50px;
+    padding-left: 15%;
+    padding-top: 10px;
+    border-radius: 80px;
+}
+.member-warp-menu{
+    display: inline;
+    
+}
+.mem-butt{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.mem-butt button{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+/* Nav bar style */
+
+/* Section */
+section{
+    height: 400px;
+    background-image: url(../img/wall.jpg);
+    background-size: cover;
+}
+
+.caption-area {
+    
+   display: flex;
+   justify-content: center; 
+}
+.caption-area img{
+    width: 450px;
+    height: 450px;
+    justify-content: center;
+}
+/* Section */
+
+/* Main */
+
+main img{
+    margin-top: 15%;
+    width: 350px;
+    height: 200px;
+}
+.login{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bundle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card-detail{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-detail{
+    width: 600px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Main */
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer img{
+    width: 250px;
+}
+.wrap-socials-icon{
+    display: flex;
+}
+.wrap-socials-icon div {
+    margin-top: 35%;
+    padding-left: 40px;
+}
+/* Footer */
